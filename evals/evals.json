@@ -1,0 +1,29 @@
+{
+  "skill_name": "orchestrate",
+  "evals": [
+    {
+      "id": 1,
+      "name": "launch-readiness",
+      "cwd": ".",
+      "prompt": "Plan this as a PROMPTS file I can run across parallel sessions: get a small service ready for its first customer. Before the signing and go-live dates I need the onboarding checklist and kickoff deck, the contract drafts for counsel's review, the access-request process for the systems we'll connect to, a two-week training plan, a weekly report template, and an invoice template (nothing issued before the company is formed). Use whatever skills fit; tell me which to use when.",
+      "expected_output": "One PROMPTS file: about 5-8 prompts, a wide wave 1 (independent documents), counsel review and pre-formation limits as decisions or J-items, an integrator that merges the results into the project's records, skills named per prompt after a survey, and a live What-to-do-now box.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "blog-round",
+      "cwd": ".",
+      "prompt": "Plan the next round of our marketing website: a blog with the first three articles on insurance claim denials (downgrades, missing attachments, timely filing), an RSS feed, article schema, analytics events for article reads and CTA clicks, and a redo of the FAQ with four new questions. Make the PROMPTS file so I can run as many sessions at once as possible.",
+      "expected_output": "A PROMPTS file where writers and research run in parallel in wave 1, builders that touch the site's files are serialized (one writer), a final QA prompt that runs the checks and merges results, and decisions with recommended defaults.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "small-followup",
+      "cwd": ".",
+      "prompt": "Set up prompts for my call with our contractor this week: refresh the terms-for-discussion page with anything that changed, draft the email that sends her the term sheet after the call (I send it), and make a one-page agenda for the call. Put it in a PROMPTS file I can track.",
+      "expected_output": "A small PROMPTS file (1-3 prompts, not an over-split), the send step kept with the user, decisions with defaults, the tracker and box, skills per prompt.",
+      "files": []
+    }
+  ]
+}
